@@ -42,3 +42,37 @@ pytest tests/
 
 ---
 *This repository is fully compiled as a validated submission under the VITYARTHI course evaluation process.*
+## 🛠️ Technologies / Tools Used
+- **Language:** Python 3.10+
+- **Data Engineering:** pandas, numpy
+- **Machine Learning Core:** scikit-learn ecosystem
+- **Web UI Framework:** Streamlit Infrastructure
+- **Graphics Pipeline:** plotly express
+- **Automated Validation:** pytest automation suite
+- **Version Control:** Git & GitHub Terminal
+
+## 📂 Project Structure
+```text
+Advanced_SIEM_Threat_Detector/
+├── app.py              # Main Streamlit web visualization layout
+├── config.py           # System-wide operational settings matrix
+├── engine.py           # Core logic layer deploying Machine Learning model
+├── mock_data.py        # Telemetry simulation script creating logs
+├── requirements.txt    # Production dependency compilation mapping
+├── readme.md           # Structural documentation framework
+└── tests/
+    └── test_core.py    # Automated test validation component
+```
+
+## 🚀 Installation & System Setup
+
+### 1. Deploy Software Dependencies
+```bash
+python -m pip install streamlit pandas plotly scikit-learn
+```
+
+### 2. Initialize Analytics Telemetry Environment
+```bash
+python -m streamlit run app.py
+```
+
