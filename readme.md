@@ -1,5 +1,6 @@
 # Advanced SIEM Threat Detector & Log Anomaly Analyzer
-
+## 🔗 Overview
+Advanced SIEM Threat Detector is a developer-level cybersecurity solution designed to automate the parsing, monitoring, and forensic tracking of enterprise network traffic logs. The system continuously evaluates transaction anomalies, intercepts multi-vector brute force intrusion operations via automated threshold limits, and deploys unsupervised behavioral modeling pipelines to dynamically isolate malicious activities through an interactive analytics cockpit.
 An enterprise-grade software infrastructure engineered to parse network telemetry datasets, map security risks, and deploy unsupervised Machine Learning architectures to isolate hidden system anomalies.
 
 ## 🌟 System Features
@@ -7,6 +8,8 @@ An enterprise-grade software infrastructure engineered to parse network telemetr
 - **Rule-Based Intrusion Trapping:** Instantly catches brute-force footprints using dynamic frequency filters.
 - **ML Anomaly Vector Mapping:** Deploys an unsupervised `Isolation Forest` scikit-learn model to score network outlier traffic.
 - **Production SIEM Analytics Dashboard:** Interactive data visualizations tracking host risk status built via Streamlit.
+- **Interactive Cyber Monitor Panel:** Provides system administrators with a unified control system to trigger log generation and verify anomalies instantly.
+- **Enterprise Breach Analysis Density:** Visualizes exact hostile host operations and security metrics using interactive high-fidelity charting infrastructure.
 
 ## 🛠️ Built With / Stack Componentry
 - **Core Language:** Python 3.10+
@@ -75,4 +78,6 @@ python -m pip install streamlit pandas plotly scikit-learn
 ```bash
 python -m streamlit run app.py
 ```
+## 🖼️ Screenshots
+*(The interactive analytics board dashboard components and threat graphs update dynamically once the server engine pipeline is bootstrapped locally.)*
 
